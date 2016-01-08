@@ -28,10 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # 
-gem 'rb-readline'
 
-#
-gem 'table_print'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -43,6 +40,9 @@ group :development, :test do
   # gem 'byebug',      '3.4.0'
   gem 'web-console', '2.0.0.beta3'
   # gem 'spring',      '1.1.3'
+  gem 'rb-readline'
+  # table_print
+  gem 'table_print'
 end
 
 group :production do
